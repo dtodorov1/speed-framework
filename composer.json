@@ -1,0 +1,17 @@
+{
+    "name": "denis/speed-framework",
+    "autoload": {
+        "psr-4": {
+            "SpeedFramework\\Core\\": "src/"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "symfony/dependency-injection": "^6.2",
+        "symfony/yaml": "^6.2",
+        "symfony/config": "^6.2",
+        "symfony/http-kernel": "^6.2",
+        "symfony/routing": "^6.2",
+        "symfony/event-dispatcher": "^6.2"
+    }
+}
