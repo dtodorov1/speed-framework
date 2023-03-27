@@ -16,5 +16,5 @@
         "symfony/routing": "^6.2",
         "symfony/event-dispatcher": "^6.2"
     },
-     "minimum-stability": "dev"
+     "minimum-stability": "stable"
 }
