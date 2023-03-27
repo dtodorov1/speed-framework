@@ -2,8 +2,7 @@
 
 namespace SpeedFramework\Core;
 
-use app\setup\SetupApp;
-use app\speedframework\src\controllers\ErrorController;
+use app\Setup\SetupApp;
 use Symfony\Component\EventDispatcher\EventDispatcher;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\RequestStack;

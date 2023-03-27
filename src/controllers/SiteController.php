@@ -1,6 +1,6 @@
 <?php
 
-namespace app\speedframework\src\controllers;
+namespace SpeedFramework\Core\Controllers;
 
 use app\services\CarsService;
 use app\services\LocationsService;

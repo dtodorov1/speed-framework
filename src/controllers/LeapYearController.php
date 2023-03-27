@@ -1,6 +1,6 @@
 <?php
 
-namespace app\speedframework\src\controllers;
+namespace SpeedFramework\Core\Controllers;
 
 use Symfony\Component\HttpFoundation\Response;
 
