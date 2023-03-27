@@ -1,5 +1,6 @@
 {
-    "name": "denis/speed-framework",
+    "name": "speed/speed-framework",
+    "description": "framework",
     "autoload": {
         "psr-4": {
             "SpeedFramework\\Core\\": "src/"
