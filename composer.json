@@ -1,6 +1,7 @@
 {
     "name": "speed/speed-framework",
     "description": "framework",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "SpeedFramework\\Core\\": "src/"
@@ -14,5 +15,6 @@
         "symfony/http-kernel": "^6.2",
         "symfony/routing": "^6.2",
         "symfony/event-dispatcher": "^6.2"
-    }
+    },
+     "minimum-stability": "dev"
 }
