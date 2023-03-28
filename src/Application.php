@@ -2,7 +2,8 @@
 
 namespace SpeedFramework\Core;
 
-use app\Setup\SetupApp;
+use app\Startup;
+use SpeedFramework\Core\Controllers\ErrorController;
 use Symfony\Component\EventDispatcher\EventDispatcher;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\RequestStack;
@@ -25,13 +26,11 @@ class Application extends HttpKernel
     protected $dispatcher;
 
 
-    public function __construct(SetupApp $setupApp)
+    public function __construct(Startup $startUp)
     {
-        $container = $setupApp->getServices();
-        $dispatcher = $setupApp->getDispatcher();
-        $routes = $setupApp->getRoutes();
-
-//        $routes = include __DIR__.'../../core/config.php';
+        $container = $startUp->getServices();
+        $dispatcher = $startUp->getDispatcher();
+        $routes = $startUp->getRoutes();
 
         $context = new RequestContext();
         $this->matcher = new UrlMatcher($routes, $context);
